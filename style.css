@@ -13,6 +13,15 @@ html,body{
     overflow-x: hidden;
 }
 
+/*background image responsiveness*/
+
+    /*
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    */
+
 .logo {
     height: 7%;
     width: 7%;
@@ -80,7 +89,10 @@ a {
     background: white;
     padding: 30%;
     background-image: url(images/home_background.png);
+
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sectiononecontent {
@@ -104,6 +116,9 @@ a {
     padding: 30%;
     background-image: url(images/home_two_background.png);
     background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sectiontwocontent {
@@ -122,6 +137,9 @@ a {
     background: white;
     background-image: url(images/defaultprofile1.png);
     background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sectionthreecontent {
@@ -141,6 +159,9 @@ a {
     background: #f0f0f0;
     background-image: url(images/defaultprofile2.png);
     background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -161,6 +182,9 @@ a {
     background: white;
     background-image: url(images/defaultprofile1.png);
     background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -185,6 +209,9 @@ a {
     padding: 30%;
     background-image: url(images/coolgradient.jpg);
     background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer {
