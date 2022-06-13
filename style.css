@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+
+
+/* this is a comment for css */
+
+html,body{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.logo {
+    height: 7%;
+    width: 7%;
+    cursor: pointer;
+    margin-right: auto;
+    padding: 1%;
+}
+
+header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+
+}
+
+#horizontal-line {
+    height: 2px;
+    width: 1500px;
+    background-color: rgb(201, 201, 201);
+}
+
+a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links a {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links a:hover {
+    color: #5959ff;
+}
+
+
+.container{
+    height: 100vh;
+}
+
+.one {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #20123a;
+    font-family: 'Roboto';
+    display: grid;
+    background: white;
+    padding: 30%;
+    background-image: url(images/home_background.png);
+    background-size: cover;
+}
+
+.sectiononecontent {
+    font-family: 'Roboto';
+    position: relative;
+    bottom: 130px;
+}
+
+.two {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #20123a;
+    display: grid;
+    background: #f0f0f0;
+    padding: 30%;
+    background-image: url(images/home_two_background.png);
+    background-size: cover;
+}
+
+.sectiontwocontent {
+    font-family: 'Roboto';
+    position: relative;
+    bottom: 130px;
+}
+
+.three {
+    font-family: 'Roboto';
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #20123a;
+    background: white;
+    background-image: url(images/defaultprofile1.png);
+    background-size: cover;
+}
+
+.sectionthreecontent {
+    font-family: 'Roboto';
+    position: relative;
+    padding: 30%;
+    right: 360px;
+}
+
+.four {
+    font-family: 'Roboto';
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #20123a;
+    background: #f0f0f0;
+    background-image: url(images/defaultprofile2.png);
+    background-size: cover;
+    
+}
+
+.sectionfourcontent {
+    font-family: 'Roboto';
+    position: relative;
+    padding: 30%;
+    left: 360px;
+}
+
+.five {
+    font-family: 'Roboto';
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #20123a;
+    background: white;
+    background-image: url(images/defaultprofile1.png);
+    background-size: cover;
+    
+}
+
+.sectionfivecontent {
+    font-family: 'Roboto';
+    position: relative;
+    padding: 30%;
+    right: 360px;
+}
+
+.six {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #20123a;
+    font-family: 'Roboto';
+    background: white;
+    padding: 30%;
+    background-image: url(images/coolgradient.jpg);
+    background-size: cover;
+}
+
+.footer {
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #18181a;
+}
+
+.inner_footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner_footer .logo_container {
+    width: 20%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.inner_footer .logo_container img {
+    width: 130px;
+    height: auto;
+}
+
+.inner_footer .footer_third a:hover {
+    color: #5959ff;
+    transition: all 0.3s ease 0s;
+}
+
+.inner_footer .footer_third {
+    width: calc(21.6666666667% - 20px);
+    margin-right: 100px;
+    float: left;
+    height: 100%;
+}
+
+.inner_footer .footer_third:last-child {
+    margin-right: 0;
+}
+
+.inner_footer .footer_third h1 {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 500px;
+    width: 100%;
+    padding-bottom: 5px;
+}
