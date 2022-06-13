@@ -250,3 +250,15 @@ a {
     width: 100%;
     padding-bottom: 5px;
 }
+
+@media (max-width: 1360px)  {  /* LAPTOP */
+
+}
+
+@media (max-width: 980px)  { /* TABLET */
+
+}
+
+@media (max-width: 420px)  { /* MOBILE */
+
+}
